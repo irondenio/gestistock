@@ -31,7 +31,11 @@ st.title("📦 Application de Gestion de Stock")
 
 st.subheader("Auteur: Anthony DJOUMBISSI")
 
-st.contact("mailto: adjoumbissi@gmail.com, tel: +237 691 650 720")
+with st.sidebar:
+    st.markdown("## 📞 Contact")
+    st.markdown("📧 adjoumbissi@gmail.com")
+    st.markdown("☎️ +237 691 650 720")
+
 
 # Styles CSS personnalisés
 st.markdown("""
