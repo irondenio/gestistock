@@ -25,6 +25,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.sidebar.image("assets/copyrights.png", width=75)
+
+st.title("📦 Application de Gestion de Stock")
+
+st.subheader("Auteur: Anthony DJOUMBISSI, adjoumbissi@gmail.com")
+
 # Styles CSS personnalisés
 st.markdown("""
 <style>
@@ -579,3 +585,5 @@ elif page == "📤 Sorties":
     show_exits()
 elif page == "🚨 Alertes":
     show_alerts()
+
+st.image("assets/porte drapeau SEAHORSE.png", width=100)
