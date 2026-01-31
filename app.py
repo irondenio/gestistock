@@ -29,7 +29,9 @@ st.sidebar.image("assets/copyrights.png", width=75)
 
 st.title("📦 Application de Gestion de Stock")
 
-st.subheader("Auteur: Anthony DJOUMBISSI, adjoumbissi@gmail.com")
+st.subheader("Auteur: Anthony DJOUMBISSI")
+
+st.contact("mailto: adjoumbissi@gmail.com, tel: +237 691 650 720")
 
 # Styles CSS personnalisés
 st.markdown("""
