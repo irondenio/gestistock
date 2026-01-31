@@ -555,7 +555,6 @@ def show_alerts():
 
 # Navigation
 with st.sidebar:
-    st.image("https://img.icons8.com/clouds/200/warehouse.png", width=100)
     st.title("📦 GestiStock")
     st.caption("Gestion de Stock Intelligente")
     
